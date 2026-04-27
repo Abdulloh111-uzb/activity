@@ -15,4 +15,4 @@ while current_date <= end_date:
     os.system("git add .")
     os.system(f'git commit --date="{date_str}" -m "commit on {date_str}"')
     
-    current_date += timedelta(days=1)
+    current_date += timedelta(days=1)       
